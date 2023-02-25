@@ -9,6 +9,7 @@ import edu.wpi.first.math.trajectory.TrapezoidProfile;
 import edu.wpi.first.math.util.Units;
 import frc.lib.util.COTSFalconSwerveConstants;
 import frc.lib.util.SwerveModuleConstants;
+import frc.lib.math.Conversions;
 
 public final class Constants {
     public static final double stickDeadband = 0.1;
@@ -94,7 +95,7 @@ public final class Constants {
             public static final int driveMotorID = 12;
             public static final int angleMotorID = 11;
             public static final int talonSRXID = 1;
-            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(0.0);
+            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(122.5);
             public static final SwerveModuleConstants constants = 
                 new SwerveModuleConstants(driveMotorID, angleMotorID, talonSRXID, angleOffset);
         }
@@ -104,7 +105,7 @@ public final class Constants {
             public static final int driveMotorID = 32;
             public static final int angleMotorID = 31;
             public static final int talonSRXID = 3;
-            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(0.0);
+            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(175.2);
             public static final SwerveModuleConstants constants = 
                 new SwerveModuleConstants(driveMotorID, angleMotorID, talonSRXID, angleOffset);
         }
@@ -114,7 +115,7 @@ public final class Constants {
             public static final int driveMotorID = 22;
             public static final int angleMotorID = 21;
             public static final int talonSRXID = 2;
-            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(0.0);
+            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(266.4);
             public static final SwerveModuleConstants constants = 
                 new SwerveModuleConstants(driveMotorID, angleMotorID, talonSRXID, angleOffset);
         }
@@ -124,7 +125,7 @@ public final class Constants {
             public static final int driveMotorID = 42;
             public static final int angleMotorID = 41;
             public static final int talonSRXID = 4;
-            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(0.0);
+            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(304.4);
             public static final SwerveModuleConstants constants = 
                 new SwerveModuleConstants(driveMotorID, angleMotorID, talonSRXID, angleOffset);
         }

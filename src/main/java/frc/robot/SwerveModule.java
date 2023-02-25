@@ -86,7 +86,7 @@ public class SwerveModule {
     private void configAngleEncoder(){        
         angleEncoder.configFactoryDefault();
         angleEncoder.configAllSettings(Robot.ctreConfigs.swerveTalonSRXConfig);
-        angleEncoder.configFeedbackNotContinuous(false, 0);
+        angleEncoder.configFeedbackNotContinuous(true, 0);
         angleEncoder.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Absolute);
     }
 
